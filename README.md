@@ -1,26 +1,22 @@
-# Proyecto video juegos
+# Proyecto Videojuegos
 
-<p>
-En este proyecto vamos a realizar el analisis de una plataforma de viedo juego de los video juego con el proposito de identificar cuales juego tiene buenas reseñas o review, identificar cuales son los video juego y las categiria que mas ingresos generan y entre cuales fecha los usuarios de los video juego hacen mas reseñas. 
-para todo lo anterios vamos a contrar con tres achivos json qe son: 
-australian_user_reviews
-</p>
--australian_user_reviews: que contiene todas las reviews hace por los los usuarios
--output_steam_games: esta archvo contiene todo el catalogo de video juegos y las categorias.
--australian_users_items:  contiene la informacion de todos los usuarios de la prataformas
+Este proyecto se centra en el análisis de una plataforma de videojuegos con el propósito de identificar los videojuegos que reciben buenas reseñas o reviews, determinar cuáles son los videojuegos y categorías que generan mayores ingresos, y analizar en qué fechas los usuarios de los videojuegos tienden a hacer más reseñas. Para llevar a cabo este análisis, se utilizan tres archivos JSON:
 
-<p>
-en el archivo de nombre video_games.ipynb encontramos el proceso de carga de nuestros archivos. Tambien vamos a encontrar el analisis de sentimiento de la reviews que la realizamos con la libreria nltk, para lo cual tubimos que realizar un proceso de adecuacion de los datos para que nltk pudiera realizar una analisis mas confiable
-</p>
+1. **australian_user_reviews**: Contiene todas las reseñas realizadas por los usuarios.
 
-<p>
-En el archivo depurado_funciones.ipynb encontraremos todo el proceso de ETL que realizamos a nuestra data con el fin de posteriormente realizar alguna funciones que las cuales seran de gran utilidad para nuestra API.
-</p>
-<p>
-en el archivo funciones.ipynb encontramos las funciones realizadas en el archivo depurado_funciones ademas vamos a encontrar ejemplos para su utilizacion
-</p>
+2. **output_steam_games**: Este archivo incluye el catálogo completo de videojuegos y sus respectivas categorías.
 
-### Nota:
-<p>
-En cada uno de los notbook encontraremos el paso a poso de como reliazamos el codigo asi como alguna consideraciones que se tubieron en consideracion para la elaboracion
-</p>
+3. **australian_users_items**: Contiene información sobre todos los usuarios de la plataforma.
+
+## Análisis de Sentimiento de las Reseñas
+
+En el archivo denominado `video_games.ipynb`, se detalla el proceso de carga de nuestros archivos. Además, se lleva a cabo el análisis de sentimiento de las reseñas utilizando la biblioteca NLTK. Para lograr esto, se realizó un proceso de preparación de los datos para que NLTK pueda realizar un análisis de sentimiento más confiable.
+
+## ETL (Extracción, Transformación y Carga)
+
+El archivo `depurado_funciones.ipynb` contiene todo el proceso de ETL que aplicamos a nuestros datos. Esto nos permite posteriormente desarrollar funciones que serán de gran utilidad para nuestra API.
+
+En el archivo `funciones.ipynb`, encontraremos las funciones creadas en el archivo `depurado_funciones`. Además, se proporcionan ejemplos de cómo utilizar estas funciones de manera efectiva.
+
+**Nota Importante**:
+Cada uno de los notebooks proporciona un detallado paso a paso de cómo se desarrolló el código, así como consideraciones clave que se tuvieron en cuenta durante su elaboración.
